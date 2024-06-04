@@ -655,7 +655,7 @@
         border: none;
         margin-bottom: 20px;
         width: 100%;
-        background-image: url(/svg/form-arrows.svg);
+        background-image: url(../svg/form-arrows.svg);
         background-repeat: no-repeat;
         background-size: 10px;
         background-position: 98%;
@@ -790,15 +790,15 @@
     }
 
     .social-link__dribble {
-        background-image: url(/svg/001-dribbble.svg);
+        background-image: url(../svg/001-dribbble.svg);
     }
 
     .social-link__pinterest {
-        background-image: url(/svg/001-pinterest.svg);
+        background-image: url(../svg/001-pinterest.svg);
     }
 
     .social-link__tumblr {
-        background-image: url(/svg/003-tumblr.svg);
+        background-image: url(../svg/003-tumblr.svg);
     }
 
     .footer__copyright {
