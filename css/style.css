@@ -544,6 +544,11 @@
         text-decoration: line-through;
     }
 
+    .title__products{
+        text-align: center;
+        font-size: 16px;
+    }
+
     .btn__shop {
         width: 140px;
         height: 50px;
@@ -558,6 +563,7 @@
     .btn__shop:hover {
         background-color: #323232;
     }
+
 
                                          /*-----FOOTER-----*/
 
@@ -589,15 +595,15 @@
     }
 
     .social-link__dribble {
-        background-image: url(/svg/001-dribbble.svg);
+        background-image: url(../svg/001-dribbble.svg);
     }
 
     .social-link__pinterest {
-        background-image: url(/svg/001-pinterest.svg);
+        background-image: url(../svg/001-pinterest.svg);
     }
 
     .social-link__tumblr {
-        background-image: url(/svg/003-tumblr.svg);
+        background-image: url(../svg/003-tumblr.svg);
     }
 
     .footer__copyright {
@@ -754,92 +760,6 @@
 
     .hidden {
         display: none;
-    }
-  
-
-    .title__products{
-        text-align: center;
-        font-size: 16px;
-    }
-    .products__cards {
-        display: flex;
-        justify-content: space-between;
-        gap: 62px;
-        margin: 26px 0 66px;
-        padding: 0 38px;
-    }
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        width: calc(var(--card-products-width));
-    }
-
-    .card__pic {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-    }
-
-    .features {
-        flex-grow: 1;
-        box-sizing: border-box;
-        margin: -35px -23px 0;
-        padding: 28px 19px;
-        border: 3px solid #b59f5b;
-    }
-
-    .product__name {
-        margin: 19px 0 5px;
-        font-weight: bold;
-        font-style: normal;
-        font-size: clamp(17px, 4vw, 20px);
-        text-transform: uppercase;
-    }
-
-    .product__description {
-        margin-bottom: 25px;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 15px;
-    }
-
-    .description__link {
-        color: #b59f5b;
-    }
-
-    .card__footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .product__price {
-        display: block;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 20px;
-    }
-
-    .product__price-old {
-        margin-bottom: -5px;
-        font-size: 14px;
-        text-decoration: line-through;
-    }
-
-    .btn__shop {
-        width: 140px;
-        height: 50px;
-        font-size: 14px;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #ffffff;
-        background-color: #b59f5b;
-        border: none;
-    }
-
-    .btn__shop:hover {
-        background-color: #323232;
     }
 
     .footer {
